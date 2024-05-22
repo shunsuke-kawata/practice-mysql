@@ -1,0 +1,19 @@
+services:
+    db:
+      container_name: test-db-mysql #コンテナの名前を指定
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: practice_db
+        MYSQL_USER: user
+        MYSQL_PASSWORD: password
+      restart: always
+      command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+      #手元のOSのディレクトリをコンテナの中のディレクトリにマウントする
+      #{手元のOS側のファイルのパス}:{コンテナ内のマウント先のパス}
+      volumes:
+        - ./cnf/my.cnf:/etc/mysql/conf.d/my.cnf
+      ports:
+        - ${DB_PORT}:${DB_PORT}
