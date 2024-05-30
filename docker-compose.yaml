@@ -6,7 +6,7 @@ services:
         dockerfile: ./Dockerfile
       environment:
         MYSQL_ROOT_PASSWORD: root
-        MYSQL_DATABASE: practice_db
+        MYSQL_DATABASE: household_budget
         MYSQL_USER: user
         MYSQL_PASSWORD: password
       restart: always
@@ -15,5 +15,7 @@ services:
       #{手元のOS側のファイルのパス}:{コンテナ内のマウント先のパス}
       volumes:
         - ./cnf/my.cnf:/etc/mysql/conf.d/my.cnf
+        - ./sql/:/tmp/work/sql
+        - ./txt/:/tmp/work/txt/
       ports:
         - ${DB_PORT}:${DB_PORT}

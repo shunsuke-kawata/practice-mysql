@@ -1,0 +1,7 @@
+CountryID	CountryName
+1	日本
+2	アメリカ
+3	イギリス
+4	フランス
+5	ドイツ
+6	中国

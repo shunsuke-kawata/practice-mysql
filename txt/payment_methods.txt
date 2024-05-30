@@ -1,0 +1,8 @@
+PaymentMethodID	PaymentMethodName
+1	クレジットカード
+2	デビットカード
+3	現金
+4	電子マネー
+5	銀行振込
+6	ポイントカード
+7	仮想通貨

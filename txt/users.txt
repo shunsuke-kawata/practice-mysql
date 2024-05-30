@@ -1,0 +1,11 @@
+UserID	UserName	Email	Password	RegistrationDate	CountryID
+1	田中太郎	tanaka@example.com	password123	2024-01-01	1
+2	山田花子	yamada@example.com	pass456	2024-01-15	1
+3	John Smith	john@example.com	johnpass	2024-02-03	2
+4	Emily Johnson	emily@example.com	emilypass	2024-03-20	3
+5	佐々木直人	sasaki@example.com	sasaki123	2024-04-10	1
+6	伊藤美香	ito@example.com	mikapass	2024-04-25	1
+7	Michael Brown	michael@example.com	mikepass	2024-05-03	2
+8	Sophie Müller	sophie@example.com	sophie123	2024-05-20	2
+9	王大龍	wang@example.com	dragonpass	2024-06-15	3
+10	张美丽	zhang@example.com	meilipass	2024-06-20	3

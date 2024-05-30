@@ -1,0 +1,13 @@
+CategoryID	CategoryName	ParentCategoryID
+1	食料品	NULL
+2	衣料品	NULL
+3	交通費	NULL
+4	娯楽	NULL
+5	医療費	NULL
+6	家賃	NULL
+7	光熱費	NULL
+8	その他	NULL
+9	洋服	2
+10	レストラン	4
+11	薬局	5
+12	バス	3
