@@ -7,8 +7,6 @@ USE household_budget;
 -- SELECT * FROM Transactions;
 -- SELECT * FROM Users;
 
-
-SELECT * FROM Transactions WHERE PaymentMethodID = 4;
-
+SELECT * FROM Users LIMIT 4 LEFT JOIN Countries ON Users.CountryID = Countries.CountryID;
 
 
